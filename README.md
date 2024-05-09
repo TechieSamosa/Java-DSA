@@ -1,6 +1,6 @@
-# DSA C++ Practice Repository
+# DSA Java Practice Repository
 
-This repository contains my daily practice code for Data Structures and Algorithms in C++.
+This repository contains my daily practice code for Data Structures and Algorithms in Java.
 
 ## Folders
 
