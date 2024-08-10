@@ -15,6 +15,6 @@ public class DeciToBin {
     }
 
     public static void main(String args[]){
-        BinToDec(101);
+        BinToDec(1010110101);
     }
 }
