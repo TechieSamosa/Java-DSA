@@ -1,4 +1,16 @@
 public class AllPatterns {
+    public static void FloydTriangle(int n){
+        //outerloop
+        int flag = 1;
+        for(int i=1; i<=n; i++){
+            //innterloop
+            for(int j=1; j<=i; j++){
+                System.out.print(flag+" ");
+                flag++;
+            }
+        System.out.println();
+        }
+    }
     public static void HollowRect(int a, int b){
         //outerloop
         for(int i=1; i<=b; i++){
@@ -41,5 +53,6 @@ public class AllPatterns {
         InvertedPyramid(7);
         InvertedNum(7);
         HollowRect(7, 7);
+        FloydTriangle(7);
     }
 }
